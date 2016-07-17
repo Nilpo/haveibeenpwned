@@ -1,6 +1,6 @@
 # HaveIBeenPwned-For-PHP (HIBP)
 
-[![Build Status](https://secure.travis-ci.org/Nilpo/haveibeenpwned.png?branch=master)](http://travis-ci.org/Nilpo/haveibeenpwned) [![Total Downloads](https://poser.pugx.org/Nilpo/haveibeenpwned/downloads.png)](https://packagist.org/packages/Nilpo/haveibeenpwned)
+[![Build Status](https://secure.travis-ci.org/Nilpo/haveibeenpwned.png?branch=master)](http://travis-ci.org/Nilpo/haveibeenpwned) [![Total Downloads](https://poser.pugx.org/Nilpo/haveibeenpwned/downloads.png)](https://packagist.org/packages/nilpo/haveibeenpwned)
 
 HIBP is a simple consumer for the HaveIBeenPwned API written for PHP 5.3+.
 
@@ -14,7 +14,7 @@ HIBP is PSR-4 compliant and can be installed using [composer](http://getcomposer
 
     {
         "require": {
-            "Nilpo/haveibeenpwned": "*"
+            "nilpo/haveibeenpwned": "*"
         }
     }
 
