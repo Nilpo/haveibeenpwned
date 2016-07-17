@@ -145,15 +145,15 @@ class HIBP {
                 return;
             case 400:
                 // Bad request — the account does not comply with an acceptable format (i.e. it's an empty string)
-                throw new \Exception("Account must be an email address or user name.");
+                throw new \Exception(BAD_INPUT_TYPE_ERROR);
                 return;
             case 403:
                 // Forbidden — no user agent has been specified in the request
-                throw new \Exception("No user agent supplied in settings.php");
+                throw new \Exception(NO_USER_AGENT_ERROR);
                 return;
             case 404:
                 // Not found — the account could not be found and has therefore not been pwned
-                throw new \Exception("Good news! This account is not associated with any breaches.");
+                throw new \Exception(NO_BREACHES_FOUND_MSG);
                 return;
         }
     }

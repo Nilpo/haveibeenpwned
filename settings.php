@@ -48,4 +48,22 @@ const USER_AGENT = '';
  */
 const RESULT_AS_ARRAY = false;
 
+/**
+ * The error message that is returned when the supplied input type does not match an
+ * acceptable format.
+ */
+const BAD_INPUT_TYPE_ERROR = 'Account must be an email address or user name.';
+
+/**
+ * The error message that is returned when the "USER_AGENT" setting is no set in
+ * the settings.php file.
+ */
+const NO_USER_AGENT_ERROR = 'No user agent supplied in settings.php';
+
+/**
+ * The success message that is returned when no breach information is found for a
+ * supplied account.
+ */
+const NO_BREACHES_FOUND_MSG = 'Good news! This account is not associated with any known breaches.';
+
 // END
