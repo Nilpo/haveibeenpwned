@@ -1,5 +1,8 @@
 {
+	"name": "Nilpo/haveibeenpwned",
+	"description": "A simple consumer for the HaveIBeenPwned API written in PHP.",
 	"require": {
+		"php": "^5.3 || ^7.0",
 		"nategood/httpful": "*"
 	},
 	"autoload": {
