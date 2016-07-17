@@ -6,6 +6,13 @@ use \Httpful\Request;
 
 require_once(__DIR__ . '/../settings.php');
 
+/**
+ * Provides a simple consumer for the HaveIBeenPwned API. Tested and working with API v2.
+ * 
+ * @author Rob Dunham <devnilpo@gmail.com>
+ * @copyright 2016 Rob Dunham
+ * @license https://opensource.org/licenses/MIT MIT License
+ */
 class HIBP {
 
 	/**

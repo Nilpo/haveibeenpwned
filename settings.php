@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Settings file for HIBP (HaveIBeenPwned) API consumer class.
+ * 
+ * @author Rob Dunham <devnilpo@gmail.com>
+ * @copyright 2016 Rob Dunham
+ * @license https://opensource.org/licenses/MIT MIT License
+ */
+
 namespace HIBP;
 
 /**
