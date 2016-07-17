@@ -10,7 +10,7 @@ HIBP is a simple consumer for the HaveIBeenPwned API written for PHP 5.3+.
 
 ## Composer
 
-HIBP is PSR-4 compliant and can be installed using [composer](http://getcomposer.org/).  Simply add `Nilpo/haveibeenpwned` to your composer.json file.  _Composer is the sane alternative to PEAR.  It is excellent for managing dependencies in larger projects_.
+HIBP is PSR-4 compliant and can be installed using [composer](http://getcomposer.org/).  Simply add `nilpo/haveibeenpwned` to your composer.json file.  _Composer is the sane alternative to PEAR.  It is excellent for managing dependencies in larger projects_.
 
     {
         "require": {
