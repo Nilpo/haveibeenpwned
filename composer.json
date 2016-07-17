@@ -1,5 +1,10 @@
 {
 	"require": {
 		"nategood/httpful": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"HIBP\\": "src/"
+		}
 	}
 }
