@@ -18,7 +18,7 @@ if (isset($_POST['account']) && !empty($_POST['account'])) {
 ?>
 
 <form method="POST" action="">
-	<input id="account" name="account" type="email" placeholder="Email or user name">
+	<input id="account" name="account" type="text" placeholder="Email or user name">
 	<button id="submit" name="submit" type="submit" value="Submit">Have I Been Pwned?</button>
 </form>
 
