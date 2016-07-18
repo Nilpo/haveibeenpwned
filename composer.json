@@ -1,6 +1,13 @@
 {
 	"name": "nilpo/haveibeenpwned",
 	"description": "A simple consumer for the HaveIBeenPwned API written in PHP.",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Rob Dunham",
+			"email": "devnilpo@gmail.com"
+		}
+	],
 	"require": {
 		"php": "^5.3 || ^7.0",
 		"nategood/httpful": "*"
